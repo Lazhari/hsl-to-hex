@@ -1,11 +1,23 @@
 {
   "name": "hsl-to-hex",
   "version": "1.0.0",
-  "description": "",
+  "description": "HSL to HEX package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Med Lazhari",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazhari/hsl-to-hex.git"
+  },
+  "keywords": [
+    "hsl",
+    "hex"
+  ],
+  "bugs": {
+    "url": "https://github.com/Lazhari/hsl-to-hex/issues"
+  },
+  "homepage": "https://github.com/Lazhari/hsl-to-hex#readme"
 }
