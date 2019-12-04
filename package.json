@@ -9,7 +9,7 @@
     }
   },
   "scripts": {
-    "prepublish": "npm ls --depth=0 --production=true && npm test",
+    "prepublishOnly": "npm ls --depth=0 --production=true && npm test",
     "test": "npm run lint && tap --cov test",
     "lint": "eslint --fix . && echo 'Lint complete.'"
   },
