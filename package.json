@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prepublishOnly": "npm ls --depth=0 --production=true && npm test",
-    "test": "npm run lint && tap --cov --coverage-report=clover test",
+    "test": "npm run lint && tap --cov --coverage-report=lcov --no-browser test",
     "lint": "eslint --fix . && echo 'Lint complete.'"
   },
   "author": "Med Lazhari",
