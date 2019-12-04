@@ -9,8 +9,9 @@
     }
   },
   "scripts": {
+    "prepublish": "npm ls --depth=0 --production=true && npm test",
     "test": "npm run lint && tap --cov test",
-    "lint": "standard"
+    "lint": "eslint --fix . && echo 'Lint complete.'"
   },
   "author": "Med Lazhari",
   "license": "MIT",
@@ -30,6 +31,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
+    "debug": "4.1.1",
     "hsl-to-rgb-for-reals": "1.1.1"
   },
   "devDependencies": {
