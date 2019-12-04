@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Convert HSL colors to RGB colors in hex format.",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "scripts": {
     "test": "npm run lint && tap --cov test",
     "lint": "standard"
@@ -28,7 +33,12 @@
     "hsl-to-rgb-for-reals": "1.1.1"
   },
   "devDependencies": {
-    "standard": "14.3.1",
+    "eslint": "6.7.2",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "husky": "3.1.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
     "tap": "14.10.2"
   },
   "directories": {
