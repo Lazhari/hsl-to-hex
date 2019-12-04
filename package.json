@@ -1,5 +1,5 @@
 {
-  "name": "@mlazhari/hsl-to-hex",
+  "name": "mlazhari/hsl-to-hex",
   "version": "1.0.0",
   "description": "Convert HSL colors to RGB colors in hex format.",
   "main": "index.js",

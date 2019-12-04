@@ -5,7 +5,7 @@ Convert HSL colors to RGB colors in hex format.
 ## Install
 
 ```sh
-npm install --save @mlazhari/hsl-to-hex
+npm install --save mlazhari/hsl-to-hex
 ```
 
 ## API
