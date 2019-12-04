@@ -5,7 +5,7 @@ Convert HSL colors to RGB colors in hex format.
 ## Install
 
 ```sh
-npm install --save mlazhari/hsl-to-hex
+npm install --save @lazhari/hsl-to-hex
 ```
 
 ## API
@@ -18,7 +18,7 @@ hsl(hue, saturation, luminosity) => String
 ## Example
 
 ```js
-const hsl = require("hsl-to-hex");
+const hsl = require("@lazhari/hsl-to-hex");
 const hue = 133;
 const saturation = 40;
 const luminosity = 60;
