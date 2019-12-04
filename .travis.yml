@@ -2,8 +2,15 @@ language: node_js
 node_js: "12"
 cache: npm
 
+addons:
+  sonarcloud:
+    organization: $SONAR_ORG
+    token:
+      secure: $SONAR_TOKEN
+
 install:
   - npm install
 
 script:
   - npm test
+  - bash sonar.sh

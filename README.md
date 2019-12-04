@@ -1,5 +1,7 @@
 # hsl-to-hex
 
+[![Build Status](https://travis-ci.org/Lazhari/hsl-to-hex.svg?branch=master)](https://travis-ci.org/Lazhari/hsl-to-hex)
+
 Convert HSL colors to RGB colors in hex format.
 
 ## Install
