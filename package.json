@@ -11,7 +11,8 @@
   "scripts": {
     "prepublishOnly": "npm ls --depth=0 --production=true && npm test",
     "test": "npm run lint && tap --cov --coverage-report=lcov --no-browser test",
-    "lint": "eslint --fix . && echo 'Lint complete.'"
+    "lint": "eslint --fix . && echo 'Lint complete.'",
+    "prepublish": "./publish-dep.sh"
   },
   "author": "Med Lazhari",
   "license": "MIT",
